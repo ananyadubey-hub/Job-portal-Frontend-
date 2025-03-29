@@ -1,0 +1,670 @@
+body{
+    overflow-x:hidden !important;
+}
+.container_1
+{
+    min-height:2000px;
+}
+.nav_font
+{
+    font-size:25px;
+    color:#242b5e !important;
+    margin-left:10px;
+    
+    
+}
+
+.nav_font:hover{
+    color:white !important;
+    background:#fb246a;
+}
+
+
+
+
+.hover-effect:hover {
+    background-color: #0056b3; /* Slightly darker blue */
+    color: white; /* White text color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Optional hover effect for the secondary button */
+  .hover-effect.btn-secondary:hover {
+    background-color: #343a40; /* Slightly darker gray for secondary */
+    color: white;
+  }
+  /* Dropdown menu styles */
+ .custom-dropdown {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  /* Dropdown item hover */
+  .dropdown-item:hover {
+    background-color: #e2e6ea;
+    color: #0056b3;
+    border-radius: 5px;
+    padding-left: 15px;
+    transition: background-color 0.3s ease, padding-left 0.2s ease;
+  }
+  
+  /* Dropdown arrow style */
+  .custom-btn::after {
+    margin-left: 10px;
+  }
+
+.hero_section
+{
+    background:url("/h1_hero.jpg");
+    background-size:100% 100%;
+    min-height:500px;
+    
+}
+
+.nav_btn
+{
+   
+    margin-left:30px;
+    
+}
+
+.nav_btn1
+{
+    background:#fb246a !important;
+    color:white;
+    border:#fb246a;
+    height:40px;
+    width:80px;
+}
+
+.nav_btn2
+{
+   background:#ffffff;
+    color:#fb246a;
+    border:1px solid,#fb246a;
+    height:40px;
+    width:80px;
+}
+
+.home_nav
+{
+    margin-left:60px;
+
+}
+
+.home_navbg
+{
+    margin-left:60px;
+    background:#fb246a;
+    color:white;
+}
+
+.top
+{
+    min-height:100px;
+}
+
+
+.package
+{
+    min-height:600px;
+    
+}
+
+.package_1
+{
+    min-height:500px;
+    
+}
+.package_3:hover{
+  transform: scale(1.20);
+  transition: all ease 0.9s;
+}
+
+
+
+.resume
+{
+    min-height:400px;
+    background:#242b5e;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+
+.recent
+{
+    min-height:650px;
+   
+}
+
+.recent_1
+{
+    min-height:450px;
+   
+}
+.recent_2:hover{
+  transform: scale(1.20);
+  transition: all ease 0.9s;
+}
+
+.job
+{
+    background:url("how-applybg.png");
+    background-size:100% 100%;
+    min-height:600px;
+}
+
+.job_1
+{
+  min-height:200px;
+}
+
+.job_2
+{
+  min-height:400px;
+}
+
+.job_3
+{
+    height:230px;
+    margin:20px;
+    width:265px;
+    background:#26317f;
+}
+
+
+.testimonial
+{
+    min-height:500px;
+   
+}
+
+.talented
+{
+    min-height:600px;
+    
+}
+
+.talented_1
+{
+    background:url("support-img.jpg");
+    background-size:100% 100%;  
+    
+}
+
+.talented_2
+{
+    min-height:600px;
+   padding-top:100px;
+   padding-bottom:80px;
+   padding-right: 30px;
+   box-sizing:border-box;
+}
+
+.news
+{
+    min-height:500px;
+}
+
+.ufooter
+{
+    min-height:500px;
+    background:#010b1d;
+}
+
+.ufooter_1
+{
+    min-height:200px;
+    margin-top:100px;
+}
+.recruiter-register
+{
+    min-height:200px;
+}
+
+
+.recruiter_div_signup
+{
+    text-align:center;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.error_msg
+{
+    color:red !important;
+    font-size:15px;
+}  
+
+.adminlogin
+{
+    min-height:200px;
+}
+
+.seeker-background
+{
+    /* margin:200px; */
+    background:url("support-img.jpg");
+}
+
+
+.form
+{
+min-height:400px;
+background:rgba(217,217,217,.6);
+margin:50px auto;
+border-radius:3px;
+padding:40px;
+box-sizing:border-box;
+color:#247d63;
+box-shadow:0px 0px 20px 14px rgba(36,125,99,.2);
+}
+.t
+{
+height:30px;
+width:100%;
+border:none;
+background:transparent;
+padding-left:15px;
+box-sizing:border-box;
+margin-bottom:15px;
+border-radius:5px;
+color:#247d63;
+font-size:18px;
+border-bottom:2px solid #247d63;
+}
+::placeholder
+{
+color:#247d63;
+}
+.submit_button
+{
+height:50px;
+width:100%;
+background:transparent;
+border:1px solid #247d63;
+box-sizing:border-box;
+border-radius:5px;
+color:#247d63;
+font-size:20px;
+}
+.seeker_list{
+   min-height: 200px;
+   border: 1px solid black;
+   border-radius: 10px;
+
+}
+
+.seeker_img{
+   border-radius: 50%;
+}
+
+.seeker_name{
+   text-align: center;
+   font-size: 40px;
+}
+
+.seeker_content{
+   text-align: center;
+   font-size: 15px;
+}
+
+.seeker_btn{
+   min-width: 180px;
+   min-height: 40px;
+   line-height: 40px;
+   border-radius: 20px;
+   background: #1f2c7b;
+   color: white;
+   text-align: center;
+}
+.form_h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #1f2b7b;
+    text-transform:uppercase;
+}
+.form_button {
+    width: 100%;
+    padding: 10px;
+    background: #fb246a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: 700;
+}
+  
+.form_button:hover {
+    background:#074f88;
+}
+
+
+
+
+
+
+
+.postedjob_h{
+  color: #074f88;
+  font-weight: 700;
+  font-size: 18px;
+}
+.postedjob_p1{
+  color: #074f88;
+  font-size: 17px;
+  font-weight: 600;
+}
+.postedjob_p2{
+  /* color: #fa236a; */
+  font-size: 17px;
+  font-weight: 600; 
+}
+.postedjob_card:hover{
+ transform: scale(1.02);
+ box-shadow: 0px 0px 5px rgba(179, 176, 176, 0.5);
+ transition: all 0.3s;
+}
+.postedjob_card{
+ transition: all 0.3s;
+}
+
+.form_button {
+  width: 100%;
+  padding: 10px;
+  background: #fb246a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight:700;
+}
+
+.form_label{
+    font-weight: 600;
+    color: #074f88;
+}
+.form_card{
+    border: 1.5px solid #074f88 !important;
+}
+.form_cardheader{
+    border-bottom: 1.5px solid #074f88 !important;
+}
+
+
+.form_button {
+    width: 100%;
+    padding: 10px;
+    background: #fb246a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: 700;
+  }
+  
+  .form_button:hover {
+    background:#074f88;
+}
+
+.btn_block_unblock
+{
+    background:#fb246a !important;
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+    width:100%;
+}
+
+.btn_block_unblock
+{
+    background:#fb246a !important;
+    color:white;
+    text-align:center;
+    border-radius: 10px;
+     width: 100%;
+      
+}
+
+
+.contact_row{
+    min-height: 450px;
+ 
+ }
+  .contact_container{
+    background: linear-gradient(120deg,#536bdf,#db0249);
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    min-height: 450px;
+  }
+ 
+  .contact_img{
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .contact_msg{
+    height: 200px;
+  }
+ 
+  .contact_heading{
+    color: rgb(150, 193, 200);
+  }
+ 
+ .contact_para{
+    color: rgb(202, 203, 201);
+ }
+ 
+ .contact_submit{
+    background: #0056b3;
+    color: white;
+    border: none;
+ }
+ 
+ .about_header{
+    background: url('/how-applybg copy.png');
+    background-size: 100% 100%;
+    min-height: 200px;
+ }
+ 
+ .about_header_content{
+    color: white;
+    text-align: center;
+ 
+ }
+ 
+ .about_intro{
+    text-align: center;
+ }
+ 
+ .about_image{
+    min-height: 400px;
+ }
+ 
+ 
+ .team_header{
+    text-align: center;
+ }
+ 
+ 
+ 
+ .team_card{
+    min-height: 200px;
+     
+  }
+  .teamchild_div{
+    min-height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #5f8eb3;
+    transition: all ease 1s;
+  }
+ 
+  .teamchild_div:hover{
+    transform: scale(1.05);
+    transition: all ease 1s;
+  }
+ 
+  .team_name{
+    font-size: 25px;
+    font-weight: bold;
+    color: #5f8eb3;
+ 
+  }
+  
+  .team_content{
+    font-size: 15px;
+    color: gray;
+  }
+  
+  .team_review{
+    font-size: 15px;
+  } 
+
+
+
+  .top_footer-container{
+    min-height: 450px;
+    background: #020a1d;
+ }
+ 
+ .topFooter_content{
+    color:#eeeeee;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+ }
+ .f{
+   text-align: right;
+ }
+ .footer_btn{
+    width: 50px;
+    background: #db0249;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 25px;
+ }
+ 
+ .foot_content{
+    color: white;
+ }
+ 
+ .p{
+   color:#d9d9d9;
+   font-size: 18px;
+   font-weight: 400;
+ }
+ 
+   
+/* Page not found */
+.err-page{
+  text-align: center;
+  margin: 30px auto;
+  background: #fcf0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+.err-h1{
+  color: rgb(118, 2, 2);
+  font-weight: bold;
+}
+.err-img{
+  height: 100px;
+  width: 200px;
+}
+.err-msg{
+  font-size: 12px;
+  color: rgb(32, 2, 2);
+}
+.err-btn{
+  border-radius: 5px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+
+
+ 
+  
+    
+ 
+ 
+
+ 
+  .img-account-profile {
+      height: 10rem;
+  }
+  .rounded-circle {
+      border-radius: 50% !important;
+  }
+  .card {
+      box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  }
+  .card .card-header {
+      font-weight: 500;
+  }
+  .card-header:first-child {
+      border-radius: 0.35rem 0.35rem 0 0;
+  }
+  .card-header {
+      font-size: 30px;
+      color:#0e5298;
+      padding: 1rem 1.35rem;
+      margin-bottom: 0;
+      background-color: rgba(33, 40, 50, 0.03);
+      border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+  }
+  .form-control, .dataTable-input {
+      display: block;
+      width: 100%;
+      padding: 0.875rem 1.125rem;
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1;
+      color: #69707a;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #c5ccd6;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 0.35rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .nav-borders .nav-link.active {
+      color: #0061f2;
+      border-bottom-color: #0061f2;
+  }
+  .nav-borders .nav-link {
+      color: #69707a;
+      border-bottom-width: 0.125rem;
+      border-bottom-style: solid;
+      border-bottom-color: transparent;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
+
+  .navbar_logo{
+    height:80px;
+    width:80px;
+    border-radius:50%;
+  }
